@@ -13,5 +13,5 @@ if day in range (1,8):
         print('yes')
     else:
         print('no')
-else:
+else: 
     print('You provided an incorrect number')
