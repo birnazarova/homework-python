@@ -1,4 +1,4 @@
-# Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных
+# Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
 
 with open('/Users/aika/Desktop/Git/python/homework-python/urok-5/file.txt', 'r') as data:
     text = data.read()
