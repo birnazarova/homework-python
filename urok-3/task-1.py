@@ -3,10 +3,18 @@
 # Пример:
 #- [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
 
-some_list = [2, 3, 5, 9, 3]
-sum = 0
+# some_list = [2, 3, 5, 9, 3]
+# sum = 0
 
-for i in range(0,len(some_list)):
-    if i%2 != 0:
-        sum = some_list[i] + sum
-print(sum)
+# for i in range(0,len(some_list)):
+#     if i%2 != 0:
+#         sum = some_list[i] + sum
+# print(sum)
+
+### Another solution ###
+
+my_list = [2, 3, 5, 9, 3]
+print(sum(my_list[1::2])) #[1::2] напечатает список от 1 до конца с шагом 2 и sum суммирует все функцией sum
+
+# x = my_list[::-1] #- зеркально отобразит список
+# print(x) -> [3, 9, 5, 3, 2]
